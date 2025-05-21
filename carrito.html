@@ -6,6 +6,74 @@
   <title>Carrito de Compras - Motos</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+<style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+.carrito-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+.carrito-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.carrito-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.carrito-tabla th, .carrito-tabla td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.mini-img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carrito-tabla input[type="number"] {
+  width: 60px;
+  padding: 5px;
+}
+
+.carrito-resumen {
+  text-align: right;
+  font-size: 18px;
+}
+
+.btn-comprar {
+  background: #2e86de;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.btn-comprar:hover {
+  background: #1b4f9c;
+}
+
+</style>
 <body>
   <div class="carrito-container">
     <h1>🛒 Carrito de Compras</h1>
